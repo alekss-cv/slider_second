@@ -1,0 +1,113 @@
+@import "nullstyle.scss";
+
+//create slider second
+body{
+
+}
+.wrapper1 , .wrapper2{
+  margin: 0 auto;
+  max-width: 460px;
+}
+.slider_first{
+  border-radius: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  margin: 10% auto;
+  width: 450px;
+  height: 250px;
+  flex-direction: column;
+  overflow: hidden;
+  .slider_second__track{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    overflow-x: scroll;
+    gap: 2px;
+    flex-wrap: nowrap;
+    transform: translateX(0px);
+    transition: all 0.3s linear;
+  }
+}
+.slider_second{
+  border-radius: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  margin: 10% auto;
+  width: 450px;
+  height: 250px;
+  flex-direction: column;
+  overflow: hidden;
+  .slider_second__track{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    overflow-x: scroll;
+    gap: 2px;
+    flex-wrap: nowrap;
+    transform: translateX(0px);
+    transition: all 0.3s linear;
+  }
+}
+.slider_first__slide{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 450px;
+  height: 250px;
+  background-color: green;
+  object-fit: contain;
+  align-items: center;
+}
+.slider_second__slide{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 450px;
+  height: 250px;
+  background-color: green;
+  object-fit: contain;
+  align-items: center;
+}
+.slider_second__btn{
+  position: absolute;
+  top: 43%;
+  z-index: 99999;
+  font-size: 30px;
+  cursor: pointer;
+  border: black solid 2px;
+  padding: 2.5px;
+}
+.slider_second__btn_next{
+  right: 0;
+}
+
+
+.slider_second__block_points{
+  margin: 0 auto;
+  display: flex;
+  width: 200px;
+  .slider_second__point{
+    margin:  0 auto;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 100%;
+    margin-bottom: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
