@@ -133,7 +133,7 @@ let slider2 = new Slider({
  arrowHorizontally: false,
  arrowVertically: true,
  numberOfSlides: 0,
- scrollThroughTheNumberOfSlides: 1,
+ scrollThroughTheNumberOfSlides: 2,
 })
 console.log(slider2)
 
